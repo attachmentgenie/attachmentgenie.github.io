@@ -9,7 +9,6 @@ site_url: https://docs.attachmentgenie.com
 theme:
   features:
     - instant
-    - tabs
   language: en
   name: material
 
