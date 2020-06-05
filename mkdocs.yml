@@ -1,1 +1,56 @@
-site_name: My Docs
+copyright: Copyright &copy; 2020
+repo_name: attachmentgenie/attachmentgenie.github.io
+repo_url: https://github.com/attachmentgenie/attachmentgenie.github.io
+site_name: docs.attachmentgenie.com
+site_description: puppet roles and profiles
+site_author: Bram Vogelaar
+site_url: https://docs.attachmentgenie.com
+
+theme:
+  features:
+    - instant
+    - tabs
+  language: en
+  name: material
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/attachmentgenie
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/attachmentgenie
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bram-vogelaar-2316578/
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
